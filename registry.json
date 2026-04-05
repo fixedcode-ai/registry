@@ -3,7 +3,7 @@
   "packages": [
     {
       "name": "@fixedcode/bundle-spring-library",
-      "description": "Spring Boot project skeleton \u2014 Gradle, Docker, CI, configs, migrations",
+      "description": "Spring Boot project skeleton — Gradle, Docker, CI, configs, migrations",
       "version": "0.1.0",
       "kind": "bundle",
       "tags": [
@@ -20,7 +20,7 @@
     },
     {
       "name": "@fixedcode/bundle-spring-domain",
-      "description": "Spring/Kotlin DDD domain code \u2014 aggregates, entities, commands, queries, events, services, tests",
+      "description": "Spring/Kotlin DDD domain code — aggregates, entities, commands, queries, events, services, tests",
       "version": "0.1.0",
       "kind": "bundle",
       "tags": [
@@ -37,7 +37,7 @@
     },
     {
       "name": "@fixedcode/generator-openapi",
-      "description": "OpenAPI 3.0.3 spec generator \u2014 produces API specs from any bundle with HTTP operations",
+      "description": "OpenAPI 3.0.3 spec generator — produces API specs from any bundle with HTTP operations",
       "version": "0.1.0",
       "kind": "generator",
       "tags": [
@@ -68,7 +68,7 @@
     },
     {
       "name": "@fixedcode/bundle-mcp-wrapper",
-      "description": "Model Context Protocol server wrapper \u2014 expose tools to AI coding agents",
+      "description": "Model Context Protocol server wrapper — expose tools to AI coding agents",
       "version": "0.1.0",
       "kind": "bundle",
       "tags": [
@@ -84,16 +84,15 @@
     },
     {
       "name": "@fixedcode/bundle-hello-world",
-      "description": "Minimal test bundle \u2014 generates a greeting file. Great for testing the registry flow.",
+      "description": "@fixedcode/bundle-hello-world — a fixedcode bundle",
       "version": "0.1.0",
       "kind": "bundle",
       "tags": [
         "hello",
         "test",
-        "example",
-        "starter"
+        "example"
       ],
-      "author": "fixedcode",
+      "author": "Tom D",
       "repo": "https://github.com/fixedcode-ai/bundle-hello-world",
       "install": "npm install github:fixedcode-ai/bundle-hello-world"
     }
